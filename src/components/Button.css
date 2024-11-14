@@ -1,0 +1,66 @@
+.rounded-square-button {
+    background-color: #007BFF; /* Bootstrap Primary Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rounded-square-button:hover {
+    background-color: #0056b3; /* Darker Blue on Hover */
+  }
+  
+  .rounded-square-button:active {
+    background-color: #004085; /* Even Darker Blue on Click */
+  }
+  
+  .rounded-square-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Focus Ring */
+  }
+  
+  .button-Paper {
+    background-color: #28B463; /* Green */
+  }
+  
+  .button-Paper:hover {
+    background-color: #1D8348;
+    transform: translateY(-2px);
+  }
+  
+  .button-Paper:active {
+    background-color: #196F3D;
+    transform: translateY(0);
+  }
+  
+  .button-Scissors {
+    background-color: #3498DB; /* Blue */
+  }
+  
+  .button-Scissors:hover {
+    background-color: #2980B9;
+    transform: translateY(-2px);
+  }
+  
+  .button-Scissors:active {
+    background-color: #1F618D;
+    transform: translateY(0);
+  }
+  
+  .button-Rock {
+    background-color: #FF5733; /* Red-Orange */
+  }
+  
+  .button-Rock:hover {
+    background-color: #C70039;
+    transform: translateY(-2px);
+  }
+  
+  .button-Rock:active {
+    background-color: #900C3F;
+    transform: translateY(0);
+  }
